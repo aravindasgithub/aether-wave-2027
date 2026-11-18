@@ -11,6 +11,8 @@
   <meta property="og:title" content="AETHER WAVE 2027 | IEEE ComSoc SBC NSSCE" />
   <meta property="og:description" content="AETHER WAVE – A Hardware and Software Hackathon. CODE. BUILD. INNOVATE." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="logo.png" />
+  <link rel="icon" type="image/svg+xml" href="logo-icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -35,30 +37,7 @@
       <!-- Logo -->
       <a href="#hero" class="nav-logo">
         <span class="logo-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient id="logoGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#00f0ff" />
-                <stop offset="100%" stop-color="#8b5cf6" />
-              </linearGradient>
-            </defs>
-            <!-- Wave paths -->
-            <path d="M4 24 Q8 14 12 24 Q16 34 20 24 Q24 14 28 24 Q32 34 36 24 Q40 14 44 24" stroke="url(#logoGrad)"
-              stroke-width="2.5" stroke-linecap="round" fill="none" />
-            <!-- Circuit nodes -->
-            <circle cx="4" cy="24" r="2" fill="#00f0ff" />
-            <circle cx="20" cy="24" r="2" fill="#00c8ff" />
-            <circle cx="28" cy="24" r="2" fill="#8b5cf6" />
-            <circle cx="44" cy="24" r="2" fill="#a78bfa" />
-            <!-- Vertical lines (circuit traces) -->
-            <line x1="12" y1="14" x2="12" y2="34" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.4" />
-            <line x1="36" y1="14" x2="36" y2="34" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4" />
-            <!-- Top/bottom horizontal caps -->
-            <line x1="8" y1="14" x2="16" y2="14" stroke="#00f0ff" stroke-width="1.2" />
-            <line x1="32" y1="14" x2="40" y2="14" stroke="#8b5cf6" stroke-width="1.2" />
-            <line x1="8" y1="34" x2="16" y2="34" stroke="#00f0ff" stroke-width="1.2" />
-            <line x1="32" y1="34" x2="40" y2="34" stroke="#8b5cf6" stroke-width="1.2" />
-          </svg>
+          <img src="logo-icon.svg" alt="AETHER WAVE Logo Icon" width="32" height="32" />
         </span>
         <span class="nav-brand-text">AETHER<span class="accent">WAVE</span></span>
       </a>
@@ -102,6 +81,9 @@
         <span class="badge-dot"></span>
         IEEE ComSoc SBC NSSCE Presents
       </div>
+
+      <!-- Official Brand Emblem -->
+
 
       <!-- Main logo / wordmark -->
       <div class="hero-logo-wrap">
@@ -232,74 +214,26 @@
           </div>
         </div>
         <div class="about-visual">
-          <div class="circuit-card">
-            <svg class="circuit-svg" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#00f0ff" />
-                  <stop offset="100%" stop-color="#8b5cf6" />
-                </linearGradient>
-                <filter id="glow">
-                  <feGaussianBlur stdDeviation="3" result="blur" />
-                  <feMerge>
-                    <feMergeNode in="blur" />
-                    <feMergeNode in="SourceGraphic" />
-                  </feMerge>
-                </filter>
-              </defs>
-              <!-- Circuit traces -->
-              <g stroke="url(#cg1)" stroke-width="1.5" fill="none" opacity="0.6">
-                <path d="M40 160 H100 V80 H160" />
-                <path d="M160 80 H220 V120" />
-                <path d="M220 120 H280 V160" />
-                <path d="M40 160 V220 H100" />
-                <path d="M100 220 H160 V280" />
-                <path d="M160 280 H220 V240" />
-                <path d="M220 240 H280 V160" />
-                <path d="M160 80 V40 H200" />
-                <path d="M200 40 H280 V80" />
-              </g>
-              <!-- Nodes / pads -->
-              <g filter="url(#glow)">
-                <circle cx="40" cy="160" r="5" fill="#00f0ff" />
-                <circle cx="160" cy="80" r="5" fill="#00f0ff" />
-                <circle cx="280" cy="160" r="5" fill="#8b5cf6" />
-                <circle cx="160" cy="280" r="5" fill="#8b5cf6" />
-                <circle cx="100" cy="220" r="4" fill="#00c8ff" />
-                <circle cx="220" cy="120" r="4" fill="#a78bfa" />
-                <circle cx="200" cy="40" r="4" fill="#00f0ff" />
-                <circle cx="280" cy="80" r="4" fill="#8b5cf6" />
-              </g>
-              <!-- Center chip -->
-              <rect x="120" y="120" width="80" height="80" rx="6" stroke="url(#cg1)" stroke-width="2" fill="#0a0f1e"
-                filter="url(#glow)" />
-              <text x="160" y="152" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="9" fill="#00f0ff"
-                font-weight="700">AETHER</text>
-              <text x="160" y="168" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="9" fill="#8b5cf6"
-                font-weight="700">WAVE</text>
-              <!-- Chip pins -->
-              <g stroke="#00f0ff" stroke-width="1.5" opacity="0.7">
-                <line x1="120" y1="135" x2="100" y2="135" />
-                <line x1="120" y1="150" x2="100" y2="150" />
-                <line x1="120" y1="165" x2="100" y2="165" />
-                <line x1="200" y1="135" x2="220" y2="135" />
-                <line x1="200" y1="150" x2="220" y2="150" />
-                <line x1="200" y1="165" x2="220" y2="165" />
-              </g>
-              <g stroke="#8b5cf6" stroke-width="1.5" opacity="0.7">
-                <line x1="135" y1="120" x2="135" y2="100" />
-                <line x1="150" y1="120" x2="150" y2="100" />
-                <line x1="165" y1="120" x2="165" y2="100" />
-                <line x1="135" y1="200" x2="135" y2="220" />
-                <line x1="150" y1="200" x2="150" y2="220" />
-                <line x1="165" y1="200" x2="165" y2="220" />
-              </g>
-              <!-- Animated pulse rings -->
-              <circle cx="40" cy="160" r="12" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.4"
-                class="pulse-ring" />
-              <circle cx="280" cy="160" r="12" stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.4"
-                class="pulse-ring" style="animation-delay:.8s" />
-            </svg>
+          <div class="brand-showcase-card">
+            <div class="brand-card-glow"></div>
+            <img src="logo.svg" alt="AETHER WAVE Official Logo" class="brand-logo-preview" />
+            <div class="brand-download-bar">
+              <span class="brand-badge">OFFICIAL IDENTITY</span>
+              <div class="brand-links">
+                <a href="logo.svg" download="AETHER_WAVE_Logo.svg" class="btn-brand-dl" title="Download Vector SVG">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                  </svg>
+                  SVG
+                </a>
+                <a href="logo.png" download="AETHER_WAVE_Logo.png" class="btn-brand-dl" title="Download High-Res PNG">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                  </svg>
+                  PNG
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -377,14 +311,14 @@
           </div>
           <h3 class="track-title">Software</h3>
           <p class="track-desc">
-            Build applications, algorithms, and digital solutions. From AI/ML models to web and
-            mobile apps — if it runs on code, this is your track.
+            Build applications, algorithms, and digital solutions. Write impactful code, build robust systems, and solve
+            real-world problems.
           </p>
           <ul class="track-features">
-            <li>Web & Mobile Applications</li>
-            <li>AI / Machine Learning</li>
-            <li>Data Science & Analytics</li>
-            <li>Cybersecurity & Networking</li>
+            <li>Web &amp; Mobile Applications</li>
+            <li>Open Source &amp; Tooling</li>
+            <li>System &amp; Network Programming</li>
+            <li>Cybersecurity &amp; Networking</li>
           </ul>
           <div class="track-badge software-badge">SOFTWARE</div>
         </div>
@@ -800,6 +734,7 @@
       <!-- Brand -->
       <div class="footer-brand">
         <div class="footer-logo">
+          <img src="logo-icon.svg" alt="AETHER WAVE Logo Icon" class="footer-logo-img" width="34" height="34" />
           <span class="footer-logo-text">AETHER<span class="accent">WAVE</span></span>
         </div>
         <p class="footer-tagline">CODE. BUILD. INNOVATE.</p>
